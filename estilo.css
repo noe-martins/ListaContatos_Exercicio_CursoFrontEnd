@@ -1,0 +1,80 @@
+html,body{
+    height: 100%;
+}
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-title {
+    color: #385555;
+}
+.list-wrapper{
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+/* lista */
+.list-wrapper .list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* itens da lista -> Contatos */
+.list-wrapper .list .list-item{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.list-wrapper .list .list-item:hover{
+    background-color: #e8e8e8;
+}
+/* elementos dos contatos */
+.list-wrapper .list .list-item .list-item__photo{
+    width:fit-content;
+    /* border: 1px solid black; */
+}
+.list-wrapper .list .list-item .list-item__photo img{
+    border-radius: 50%;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.list-wrapper .list .list-item .list-item-manipular{
+    margin-left: -20px;
+    /* border: 1px solid black; */
+}
+.list-wrapper .list .list-item .list-item-manipular .list-item__name{
+    width:fit-content;
+    font-size: 25px;
+    color: #385555;
+    /* border: 1px solid black; */
+}
+.list-wrapper .list .list-item .list-item-manipular .list-item__email{
+    width:fit-content;
+    margin-top: 5px;
+    color: #9e9c9c;
+    /* border: 1px solid black; */
+}
+.list-wrapper .list .list-item .list-item__icons{
+    width: fit-content;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    opacity: 0;
+}
+.list-wrapper .list .list-item:hover .list-item__icons{
+    opacity: 0.3;
+}
