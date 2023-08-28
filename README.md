@@ -1,7 +1,7 @@
 # Página de uma Lista de Contatos (Exercício de HTML e CSS)
 <br>
 
-## Screeshot do Projeto
+## Screenshot do Projeto
 <img align="center" width="350" height="200" alt="Imagem Final do projeto" src="https://github.com/noe-martins/ListaContatos_Exercicio_CursoFrontEnd/blob/main/images/ModeloIndex.png">
 
 ## Descrição
